@@ -15,10 +15,15 @@ body {
 
 .banner {
   background-color: #2b3851;
+  position: relative;
+  max-width: 100%
+  max-height: 50em;
+  justify-content: center;
 }
 
 .robot {
   width: 320px;
+  transform: translateX(50%);
 }
 
 .robot-body {
@@ -32,4 +37,5 @@ body {
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
 }
