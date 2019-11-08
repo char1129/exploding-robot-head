@@ -18,24 +18,33 @@ body {
   position: relative;
   max-width: 100%
   max-height: 50em;
-  justify-content: center;
 }
 
 .robot {
   width: 320px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   transform: translateX(50%);
+  left: 50%
+  top: 0;
+
 }
 
 .robot-body {
   width: 320px;
+  z-index: 2
 }
 
 .robot-brain {
   width: 46px;
+  z-index: 2
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
   position: absolute;
+  z-index: 3;
 }
