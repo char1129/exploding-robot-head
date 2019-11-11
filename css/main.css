@@ -73,6 +73,10 @@ body {
   transform: translateX(-50px);
 } */
 
+.robot:hover > .robot-brain {
+  top: -10%;
+}
+
 .robot:hover > .robot-head-left {
   transform: translateX(-50px);
 }
