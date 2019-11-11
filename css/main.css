@@ -20,7 +20,6 @@ body {
   width: 100%;
   justify-content: center;
   top: auto;
-
 }
 
 .robot {
@@ -47,4 +46,8 @@ body {
   width: 125px;
   position: absolute;
   display: inline-block;
+}
+
+.robot:hover {
+
 }
