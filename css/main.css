@@ -31,6 +31,7 @@ body {
 
 .robot-body {
   width: 320px;
+
   /* position: absolute;
   display: block;
   z-index: 50; */
@@ -63,10 +64,19 @@ body {
   top: -40px;
 }
 
-.robot-head-right:hover {
+/* .robot-head-right:hover {
   transform: translateX(50px);
 }
 
 .robot-head-left:hover {
+  transition: transform:
   transform: translateX(-50px);
+} */
+
+.robot:hover > .robot-head-left {
+  transform: translateX(-50px);
+}
+
+.robot:hover > .robot-head-right {
+  transform: translateX(50px);
 }
