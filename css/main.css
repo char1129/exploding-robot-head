@@ -15,16 +15,15 @@ body {
 
 .banner {
   background-color: #2b3851;
-  position: absolute;
+  /* position: relative; */
   display: flex;
   width: 100%;
   justify-content: center;
-  top: auto;
+  top: ;
 }
 
 .robot {
   width: 320px;
-  display: flex;
   position: relative;
 }
 
@@ -38,14 +37,19 @@ body {
 .robot-brain {
   width: 46px;
   position: absolute;
-  display: inline-block;
+  z-index: 5
+  /* display: inline-block; */
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
   position: absolute;
-  display: inline-block;
+  /* display: inline-block; */
+}
+
+.robot-head-left {
+  left: 50px;
 }
 
 .robot:hover {
