@@ -17,33 +17,40 @@ body {
   background-color: #2b3851;
   max-width: 100%;
   max-height: 50em;
-  position: relative;
-  display: block;
+  display: flex;
 }
 
 .robot {
   width: 320px;
-  position: absolute;
   display: flex;
   z-index: 50;
+  position: relative;
 }
 
 .robot-body {
   width: 320px;
-  display: block;
+  position: absolute;
+  /* display: block; */
   width 100%;
-  z-index: 50;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .robot-brain {
   width: 46px;
+  position: absolute;
   display: inline-block;
-  z-index: 50;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
-  display: inline-block;
-  z-index: 50;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
